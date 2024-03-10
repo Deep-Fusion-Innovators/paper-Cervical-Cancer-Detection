@@ -8,7 +8,7 @@ Han Yang<sup>1,\*</sup>, Yu Mo<sup>2,\*</sup>, Jingwei Xiong<sup>3,#</sup>, Zhen
 
 <sup>2</sup> Department of Computer Science and Department of Biology, Indiana University, Bloomington, IN 47405, United States
 
-<sup>3</sup> Graduate Group in Biostatistics, University of California Davis, Davis, CA 95616, United States
+<sup>3</sup> Graduate Group in Biostatistics, University of California, Davis, CA 95616, United States
 
 <sup>4</sup> Department of Physics and Astronomy, University of California, Riverside, CA 92521, United States
 
