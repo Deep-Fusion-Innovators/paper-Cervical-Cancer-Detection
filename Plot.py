@@ -131,6 +131,7 @@ def pp_matrix(
     figsize=[8, 8],
     show_null_values=0,
     pred_val_axis="y",
+    axis_num = 1,
 ):
     """
     print conf matrix with default layout (like matlab)
@@ -156,14 +157,18 @@ def pp_matrix(
     insert_totals(df_cm)
 
     # this is for print allways in the same window
-    fig, ax1 = get_new_fig("Conf matrix default", figsize)
 
+    if axis_num != 1:
+        ax_current = axis_num
+    else:
+        fig, ax1 = get_new_fig("Conf matrix default", figsize)
+        ax_current = ax1
     ax = sns.heatmap(
         df_cm,
         annot=annot,
         annot_kws={"size": fz},
         linewidths=lw,
-        ax=ax1,
+        ax=ax_current,
         cbar=cbar,
         cmap=cmap,
         linecolor="w",
