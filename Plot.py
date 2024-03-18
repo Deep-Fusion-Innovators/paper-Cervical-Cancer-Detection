@@ -145,6 +145,7 @@ def pp_matrix(
                       'col' or 'x': show predicted values in columns (x axis) instead lines
                       'lin' or 'y': show predicted values in lines   (y axis)
     """
+    plt.rcParams.update({'font.size': 20})
     if pred_val_axis in ("col", "x"):
         xlbl = "Predicted"
         ylbl = "Actual"
@@ -219,8 +220,9 @@ def pp_matrix(
 
     # titles and legends
     ax.set_title("Confusion matrix")
-    ax.set_xlabel(xlbl)
-    ax.set_ylabel(ylbl)
+    ax.set_xlabel(xlbl, fontsize=fz+1)
+    ax.set_ylabel(ylbl, fontsize=fz+1)
+    ax.tick_params(axis='both', labelsize=fz)
     plt.tight_layout()  # set layout slim
 
 
