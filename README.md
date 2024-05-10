@@ -1,7 +1,7 @@
 # Overview
 This repository contains data and scripts for reproducing the results accompanying the manuscript:
 
-### Enhancing Cervical Cancer Detection Through Vision Transformer with LoRA-based Cervix Type Classification
+### Lightweight Low-Rank Adaptation Vision Transformer Framework for Cervical Cancer Detection and Cervix Type Classification
 Zhenchen Hong<sup>1,#</sup>, Jingwei Xiong<sup>2,#</sup>, Han Yang<sup>3</sup>, Yu Mo<sup>4</sup>
 
 <sup>1</sup> Department of Physics and Astronomy, University of California, Riverside, CA 92521, United States
@@ -14,7 +14,7 @@ Zhenchen Hong<sup>1,#</sup>, Jingwei Xiong<sup>2,#</sup>, Han Yang<sup>3</sup>, 
 
 <sup>#</sup> Correspondence to [jwxxiong@ucdavis.edu](mailto:jwxxiong@ucdavis.edu), [zhenchen.hong@email.ucr.edu](mailto:zhenchen.hong@email.ucr.edu)
 
-This work is currently available on the XXX at [this link]().
+This work is currently available on the Bioengineering-Basel at [this link](https://www.mdpi.com/2306-5354/11/5/468).
 
 # Abstract
 
@@ -26,7 +26,7 @@ Scripts and models are contained in src/models/ folder. Scripts for analysis and
 
 ## Software dependencies
 
-Methods to infer models are implemented in 
+Methods to infer models are implemented in Python/C++. The inference code could be requested by emailing corresponding authors.
 
 ## License
 
