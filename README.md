@@ -22,11 +22,11 @@ Cervical cancer remains a significant global health challenge, necessitating adv
 
 # Contents
 
-Scripts and models are contained in src/models/ folder. Scripts for analysis and figures are contained in figures.ipynb notebook. 
+The inference code could be requested by emailing corresponding authors. Scripts for analysis and figures are contained in figures.ipynb notebook. 
 
 ## Software dependencies
 
-Methods to infer models are implemented in Python/C++. The inference code could be requested by emailing corresponding authors.
+Methods to infer models are implemented in Python/C++. 
 
 ## License
 
